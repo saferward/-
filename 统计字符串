@@ -1,0 +1,28 @@
+#include<stdio.h>
+#define size 100
+int main()
+{
+	char a[size];
+	char b[size];
+	int i=0,j=0,c=0;
+	printf("ÇëÊäÈë¾ä×Ó:");
+    gets(a);
+       printf("ÇëÊäÈëµ¥´Ê:");
+	gets(b);
+while(a[i])
+{
+ if(a[i]==b[size])
+ {
+  c++;
+  
+ }
+ if(a[i]=='\0')
+ {
+  break;
+ }
+ i++;
+
+}
+printf("%d\n",c);
+return 0;
+}
